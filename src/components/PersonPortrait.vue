@@ -4,7 +4,7 @@
       <h1>
         {{ title }}
       </h1>
-      <img class="portrait" src="../assets/portrait-female-2.jpeg" />
+      <img class="portrait" :src="image" />
       <img class="cloud" src="../assets/cloud.png" />
     </header>
     <div class="body">
@@ -23,7 +23,7 @@ export default {
     description: String,
     image: String,
   },
-};
+}
 </script>
 
 <style scoped lang="sass">

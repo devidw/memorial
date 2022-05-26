@@ -33,7 +33,7 @@ export default {
     dob: String,
     dod: String,
   },
-};
+}
 </script>
 
 <style scoped lang="sass">
